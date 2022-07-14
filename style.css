@@ -109,19 +109,30 @@ body {
 
 .forth-section {
     display: flex;
-    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
-.forth-section img {
-    background-color: antiquewhite;
-    height: 500px;
-    width: 100%;
+.forth-section-box {
+    margin-top: 50px;
+    display: flex;
+    width: 50%;
+    background-color: #FEF4F5;
+    padding: 50px;
+    margin: 8px;
+    border-radius: 10px;
+    text-align: left;
 }
 
-.para {
-    margin-left: 2%;
-    width: 300px;
+.forth-section-box-text {
+    margin-left: 20px;
+
+}
+
+.forth-section-box-text p {
+    font-size: 15px;
+    color: #707070;
 }
 
 .fifth-section {
@@ -175,7 +186,7 @@ body {
 }
 
 .donate-btn {
-    color: #ef233c;
+    color: #ec102a;
     margin-bottom: 25px;
     font-size: 20px;
     padding-left: 4%
